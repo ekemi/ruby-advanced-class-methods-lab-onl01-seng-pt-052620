@@ -57,7 +57,7 @@ def self.find_or_create_by_name(song_name)
   song
 end
 
-def sef.create_from_filename(file_name)
+def self.create_from_filename(file_name)
   song = Song.new_from_filename(file_name)
   @@all << song
 
